@@ -1,0 +1,13 @@
+// override breakpoint for 50/50 columns. Force to wrap sooner
+.mobileWrap-col-5050 {
+  @media screen and (min-width: 770px) {
+    flex-direction: column;
+  }
+  @media screen and (min-width: 900px) {
+    flex-direction: row;
+  }
+}
+
+.wp-block-columns {
+  // padding: 0 3vw;
+}

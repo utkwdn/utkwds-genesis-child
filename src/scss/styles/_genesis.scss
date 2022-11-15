@@ -1,0 +1,51 @@
+// This file is for genesis's odd css naming compatiblitiy.
+// Note: Do this sparingly, and ONLY if necessary. Our goal should be to make the theme output HTML that is compatible with the framework.
+
+.genesis-skip-link a {
+  @extend .visually-hidden;
+  @extend .visually-hidden-focusable;
+}
+
+//.genesis-nav-menu {
+//  @extend #primary-menu;
+//}
+
+.title-area {
+  @extend .container;
+}
+.wrap {
+  @extend .container;
+}
+.site-inner {
+  @extend .container;
+}
+.full-width-content .site-inner {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 100%;
+}
+
+nav[aria-label='breadcrumb'] {
+  // border: 1px solid greenyellow;
+  margin-bottom: calc($spacer * 2);
+  font-size: calc(var(--wp--custom--typography--small) * 0.8);
+  color: $utsmokey;
+  width: 100%; // makes breadcrumb full width on archive page inside flex
+}
+.breadcrumb-link-wrap {
+  // @extend .breadcrumb-item;
+
+  .breadcrumb-link {
+    padding-left: calc($spacer / 2);
+    padding-right: calc($spacer / 2);
+    color: $utlinkriver;
+    &:hover {
+      color: #114c81;
+    }
+  }
+  &:first-child {
+    padding-left: 0 !important;
+  }
+}

@@ -1,0 +1,306 @@
+.site-header .wrap {
+  @extend .d-flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  // padding: calc($spacer * 0.5) 0;
+  // border: 1px solid red;
+  display: inline-flex;
+
+  @include media-breakpoint-up(lg) {
+    display: inline-flex;
+  }
+}
+.title-area {
+  padding-top: calc($spacer / 2);
+
+  .site-title a {
+    background-size: cover;
+    background-position: center;
+    // background-color: red;
+    // border: 1px solid blue;
+  }
+}
+
+.btn-mobileNav {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: $spacer;
+
+  @media screen and (min-width: 420px) {
+    flex-direction: row;
+
+    display: flex;
+  }
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+}
+
+.btn-hamburger {
+  transform: scale(1.2);
+  fill: $utsmokey;
+  @media screen and (min-width: 420px) {
+    margin-right: calc($spacer * 0.75);
+  }
+}
+// .btn-mobileNav .collapse {
+//   nav.nav-primary {
+//     display: none;
+//   }
+// }
+
+.navLabel {
+  color: $utlinkriver;
+  font-size: $p-font-size;
+}
+
+nav.nav-primary {
+  // right: -100vw;
+  background-color: $utgray1 !important;
+  // this background-color is taking priority over the custom_variables $offcanvas-bg-color and is used in the mobile nav modal bkg
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100vw;
+  margin: 0 calc(50% - 50vw);
+  width: 100vw;
+  margin-bottom: calc($spacer);
+  overflow: scroll; // allows to scroll on mobile
+  // height: 100%;
+  // padding-top: calc($spacer * 3);
+  // align-items: stretch;
+  margin-left: calc($spacer / 2);
+  @include media-breakpoint-up(lg) {
+    padding-top: 0;
+    overflow: visible;
+  }
+  ul.menu-primary {
+    // padding: $spacer 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    // align-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
+    width: 100%;
+    flex-direction: column;
+    @include media-breakpoint-up(lg) {
+      // border: 2px solid red;
+      // background: $utgray1;
+      flex-direction: row;
+      // flex-wrap: wrap;
+    }
+
+    > .menu-item {
+      // height: 3rem;
+      display: flex;
+      font-size: $p-font-size;
+      flex-direction: column;
+      align-items: flex-start;
+      align-items: stretch;
+      align-content: flex-start;
+      justify-content: flex-start;
+      // background-color: pink;
+      display: block; // allows sub menu to flow from bottom
+      position: relative;
+      @include media-breakpoint-up(lg) {
+        max-width: fit-content;
+        flex: 0 1 auto;
+        // text-align: center;
+      }
+      &:after {
+        position: absolute;
+        content: '';
+        height: auto;
+        border-bottom: 2px solid $utgray2;
+        width: 100%;
+        // top: 3rem;
+        // right: -1rem;
+        // bottom: -2rem;
+        // left: 2rem;
+        @include media-breakpoint-up(lg) {
+          content: none;
+        }
+      }
+
+      a {
+        // controls the height and width of the nav buttons
+        padding: calc($spacer * 0.65);
+        min-width: 0;
+        width: 100%;
+        // height: auto;
+        height: 100%; // makes menu-items stay same height even when more than one line
+        // background-color: orange;
+        text-decoration: none;
+        color: $utsmokeytext;
+        display: block;
+
+        @include media-breakpoint-up(lg) {
+          padding: $spacer;
+          flex: 0 1 auto;
+          // text-align: center;
+          // border: 1px solid green;
+        }
+
+        // position: relative;
+        // :before {
+        //   // makes full button clickable – not needed now. this was a hack for when we were clicking on li elements
+        //   content: '';
+        //   position: absolute;
+        //   top: 0;
+        //   right: 0;
+        //   bottom: 0;
+        //   left: 0;
+        //   z-index: 1;
+        // }
+        &:hover {
+          background: $utcoolrock;
+          background: $utgray2;
+          cursor: pointer;
+          color: 'var(--wp--preset--color--smokeyX)';
+          // border: 1px solid purple;
+          // height: 3rem;
+        }
+
+        //   &.current-menu-item :first-of-type,
+        //   > .current-menu-ancestor {
+        //     background: $utcoolrock;
+        //     a {
+        //       font-weight: bold;
+        //     }
+        //   }
+        // }
+        span {
+          margin: 0;
+          padding: 0;
+        }
+      }
+
+      &.menu-item-has-children {
+        &:hover {
+          @include media-breakpoint-up(lg) {
+            ul.sub-menu {
+              visibility: visible;
+              margin-top: 0;
+              position: absolute;
+            }
+          }
+        }
+      }
+      ul.sub-menu {
+        // display: inline-block;
+        // background-color: greenyellow;
+        height: auto;
+        // margin: 0 -1rem -1rem -1rem;
+        margin: 0 0 0 calc($spacer * 1.3);
+        width: calc(100% - 2rem);
+        // margin-bottom: -1rem;
+        border-bottom: 2px solid $utgray1;
+        // padding: calc($spacer * 0.5) 0;
+        padding: 0 0 calc($spacer * 0.5) 0;
+        padding: 0;
+        z-index: 10;
+        list-style: none;
+        position: relative;
+        display: block;
+
+        font-size: calc($p-font-size * 0.92);
+        @include media-breakpoint-up(lg) {
+          position: absolute;
+          margin: 0.5rem 0 -1rem 0;
+          display: flex;
+          flex-direction: column;
+          margin-top: -300rem; // just pushing content off screen so doesn't mess with height of parent
+          visibility: hidden;
+          padding: 0 0;
+          min-width: 110%;
+          // when nav is next to grey items, it blends too much. Just adding a white border to pop a bit
+          border-bottom: 1px solid white;
+          border-left: 1px solid white;
+          border-right: 1px solid white;
+        }
+        li a {
+          display: flex;
+          flex-direction: row;
+
+          padding: calc($spacer * 0.45);
+          @include media-breakpoint-up(lg) {
+            background-color: $utgray1;
+            min-width: 0;
+            padding: calc($spacer);
+          }
+          // border: 1px solid yellowgreen;
+          // &:before {
+          //   // playing with adding a dash before all sub items as a visual – Not sure we need this.
+          //   content: '–';
+          //   color: $utgray2;
+          //   display: inline-block;
+          //   position: relative;
+          //   padding-right: calc($spacer * 0.5);
+
+          //   @include media-breakpoint-up(lg) {
+          //     content: none;
+          //   }
+          // }
+
+          &:hover {
+            background: $utcoolrock;
+            background: $utgray2;
+            cursor: pointer;
+            display: block;
+            // height: 3rem;
+          }
+        }
+      }
+    }
+  } // end ul
+}
+
+li.current-menu-item > a {
+  background-color: $utgray2 !important;
+  box-shadow: inset 0px -2px $utorange;
+  font-weight: bold;
+  color: 'var(--wp--preset--color--smokeyX)' !important;
+  // background-color: $utorange;
+}
+
+// li.menu-item .menu-item-has-children > a {
+//   &:hover {
+//     border: 5px solid greenyellow;
+//   }
+// }
+
+li.current_page_ancestor > a {
+  // box-shadow: inset 0px -2px $utorange;
+  &:after {
+    content: none;
+    @include media-breakpoint-up(lg) {
+      position: absolute;
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23' height='8.9' fill='%23fff' viewBox='0 0 23 8.9' %3E%3Cpath d='M0,0L11.5,8.9,23,0H0Z' /%3E%3C/svg%3E");
+      /* <svg xmlns="https://www.w3.org/2000/svg" width="30" height="22" fill="#ff8200" viewBox="0 0 25 26"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"></path></svg> */
+      margin: 0 auto;
+      transform: scale(1.3);
+      width: 10%;
+      left: 50%;
+      right: 50%;
+      display: block;
+      z-index: 12;
+      transition: all 0.2s ease-out;
+      height: min-content;
+      top: -0.7rem;
+    }
+  }
+  // &:hover {
+  //   &:after {
+  //     opacity: 0;
+  //   }
+  // }
+}

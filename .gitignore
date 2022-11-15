@@ -21,3 +21,14 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+
+## Development
+.sass-cache
+bower_components
+node_modules
+vendor
+build
+dist
+package-lock.json
+
+.DS_Store

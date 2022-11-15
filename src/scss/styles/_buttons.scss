@@ -1,0 +1,20 @@
+.is-style-outline a {
+  border: 0.125rem solid $utorange !important;
+  background-color: white !important;
+  text-decoration: none;
+  border-radius: 0.45rem;
+  border: 1px solid red;
+
+  &:hover {
+    text-decoration: none;
+    color: $utlinkriver !important;
+  }
+  // &:active {
+  //   text-decoration: none;
+  //   font-weight: $font-weight-bold;
+  //   border: 6px solid green !important;
+  // }
+  // &:focus {
+  //   font-size: 6rem;
+  // }
+}
