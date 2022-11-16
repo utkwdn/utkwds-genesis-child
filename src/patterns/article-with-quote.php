@@ -1,15 +1,15 @@
 <?php
 /**
- * Title: Article with Feature Quote.
+ * Title: Article with Feature Quote
  * Slug: utkchancellor/article-with-quote
  * Categories: utkchancellor-general
  * Viewport Width: 1280
  */
 
 ?>
-<!-- wp:group -->
-<div class="wp-block-group"><!-- wp:spacer -->
-<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<!-- wp:spacer {"height":"5vw"} -->
+<div style="height:5vw" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph -->
@@ -21,7 +21,9 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:quote {"className":"ms-n5 my-5","fontSize":"medium"} -->
-<blockquote class="wp-block-quote ms-n5 my-5 has-medium-font-size"><p>Etiam cursus, odio nec mollis condimentum, augue diam faucibus magna, eu tristique leo neque vel</p></blockquote>
+<blockquote class="wp-block-quote ms-n5 my-5 has-medium-font-size"><!-- wp:paragraph -->
+<p>Etiam cursus, odio nec mollis condimentum, augue diam faucibus magna, eu tristique leo neque vel</p>
+<!-- /wp:paragraph --></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:paragraph -->
@@ -44,15 +46,14 @@
 <p>Ut commodo enim nisi, vel dictum ipsum egestas a. Donec venenatis tellus in neque blandit, non cursus erat congue. Sed non semper orci. Nunc interdum lorem faucibus sem hendrerit, posuere dapibus elit placerat. Etiam cursus, odio nec mollis condimentum, augue diam faucibus magna, eu tristique leo neque vel nibh. Donec viverra congue ligula, sed ornare tortor venenatis eget. Aliquam in sem ornare, lacinia diam ut, sollicitudin ligula. Vestibulum dignissim luctus imperdiet. Ut non consectetur massa. Donec tortor elit, maximus ac mi ac, suscipit auctor tellus. Proin sodales imperdiet sodales. Nunc lacinia imperdiet urna sed fringilla. Ut luctus, quam ac pulvinar molestie, ligula enim facilisis lacus, et blandit metus justo a turpis.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer {"height":"2rem"} -->
-<div style="height:2rem" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"2vw"} -->
+<div style="height:2vw" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph -->
 <p><a href="https://#">This Article First Appeared in this Source</a></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer -->
-<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer --></div>
-<!-- /wp:group -->
+<!-- wp:spacer {"height":"5vw"} -->
+<div style="height:5vw" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->

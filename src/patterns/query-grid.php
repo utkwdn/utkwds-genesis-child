@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Chancellor's Grid of posts in three columns.
+ * Title: Chancellor's Grid of posts in three columns
  * Slug: utkchancellor/query-grid
  * Categories: utkchancellor-general
  * Viewport Width: 1280

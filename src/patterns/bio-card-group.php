@@ -7,6 +7,9 @@
  */
 
 ?>
+<!-- wp:spacer {"height":"5vw"} -->
+<div style="height:5vw" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
 
 <!-- wp:group {"className":"bioCardContainer"} -->
 <div class="wp-block-group bioCardContainer"><!-- wp:group {"className":"bioCard"} -->

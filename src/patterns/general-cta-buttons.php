@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Chancellor's Call-to-action with text, buttons.
+ * Title: Chancellor's Call-to-action with text, buttons
  * Slug: utkchancellor/general-cta-buttons
  * Categories: utkchancellor-general
  * Viewport Width: 1280
