@@ -380,7 +380,8 @@
   // border-radius: 0 0 30px 0;
   // border-radius is being overwritten with clip corner – might use rounded in WDS instead?
   // height: 100%; // breaks equal height cards. no good.
-  @extend .clipCorner-br-container-sm;
+
+  border-radius: 0 0 30px 0;
   @media screen and (min-width: 900px) {
     flex-basis: 46%;
     flex-basis: calc((98% - 3rem) / 2);
