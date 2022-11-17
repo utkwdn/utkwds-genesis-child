@@ -130,59 +130,6 @@ h1.adaOrange {
   color: #58595b !important;
 }
 
-// experimental TN Section
-// Still in process and not functionging 100% yet
-.tnDivider {
-  position: relative;
-  width: 100vw;
-  height: auto;
-  // height: 100%;
-  // transform: scale(5);
-  transform-origin: left;
-  // margin-top: 300px;
-
-  // object-fit: cover;
-}
-
-.tnTop {
-  position: absolute;
-  object-fit: cover;
-  width: 100vw; //breaks the height of the page...
-  left: 0;
-  display: inline-block;
-  height: 100%;
-  height: auto;
-  margin: 0 auto;
-  margin-left: -5rem;
-  background-color: $utgray2;
-  background-color: $utorange;
-  // height: 200px;
-  clip-path: path('M0,1L.3,.4s1.7,0,1.7,0,0-.2,0-.2h6.4v-.2H0V1Z');
-}
-
-.tnBottom {
-  --notchSize: 130px;
-  clip-path: polygon(
-    0% 0%,
-    100% 0,
-    100% 8px,
-    calc(100% - var(--notchSize)) 100%,
-    var(--notchSize) 100%,
-    0% 100%
-  );
-}
-
-.scaleUp {
-  transform: scale(400);
-  transform-origin: top left;
-  object-fit: cover;
-}
-.flip {
-  transform: scaleX(-1);
-  right: 0;
-  left: auto;
-}
-
 .fullWidthBar-end {
   &:after {
     width: 100vw;

@@ -1,15 +1,14 @@
 <?php
 /**
- * Title: Text Group Complex
- * Slug: utkchancellor/text-group-complex
+ * Title: Text Group with Subtle Grey Bkg
+ * Slug: utkchancellor/text-group-with-subtle-grey-bkg
  * Categories: utkchancellor-general
  * Viewport Width: 1500 
  */
 
 ?>
-
-<!-- wp:cover {"url":"https://chancellor-dev.utk.edu/wp-content/uploads/2022/11/large-torch-solid-02@2x.png","id":5203,"dimRatio":0,"focalPoint":{"x":"0.78","y":"0.74"},"minHeight":627,"isDark":false,"align":"full"} -->
-<div class="wp-block-cover alignfull is-light" style="min-height:627px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-5203" alt="" src="https://chancellor-dev.utk.edu/wp-content/uploads/2022/11/large-torch-solid-02@2x.png" style="object-position:78% 74%" data-object-fit="cover" data-object-position="78% 74%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"color":[]},"layout":{"inherit":true,"type":"constrained"}} -->
+<!-- wp:cover {"dimRatio":0,"minHeight":627,"isDark":false,"align":"full"} -->
+<div class="wp-block-cover alignfull is-light" style="min-height:627px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"color":[]},"layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"66.66%"} -->
 <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:heading {"className":"quietHeading"} -->
@@ -64,8 +63,8 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:spacer {"height":"12vw"} -->
-<div style="height:12vw" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"250px"} -->
+<div style="height:250px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover -->
