@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Text Group with Subtle Grey Bkg
- * Slug: utkchancellor/text-group-with-subtle-grey-bkg
+ * Slug: utkchancellor/text-group-complex
  * Categories: utkchancellor-general
  * Viewport Width: 1500 
  */
@@ -11,20 +11,20 @@
 <div class="wp-block-cover alignfull is-light" style="min-height:627px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"color":[]},"layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"66.66%"} -->
-<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:heading {"className":"quietHeading"} -->
-<h2 class="quietHeading">The Process</h2>
+<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:heading {"textColor":"smokey"} -->
+<h2 class="has-smokey-color has-text-color">The Process</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"lead"} -->
-<p class="lead">The hands-on work to develop that vision started in late 2019, when Plowman appointed an ad-hoc committee to begin considering these ideas. The group produced a report in February 2020 that analyzed the university’s existing strengths and emerging opportunities.</p>
+<p class="lead">Integer euismod nisi nisl, ut volutpat dui iaculis finibus. Vestibulum tincidunt justo sed urna aliquam, vehicula pellentesque nulla aliquet. Aliquam dolor mauris, mollis ac diam ac, congue bibendum sapien. Ut pulvinar molestie varius. Nam commodo sollicitudin lectus. </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fancyLink"} -->
-<p class="fancyLink"><a href="https://chancellor-dev.utk.edu/wp-content/uploads/2022/11/Strategic_Visioning_White_Paper_-_Ad_Hoc_Committee_-_2020-02-05.pdf">Download the SOAR Analysis</a> </p>
+<p class="fancyLink"><a href="#">Read ellentesque mauris</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fancyLink"} -->
-<p class="fancyLink"><a href="https://chancellor-dev.utk.edu/wp-content/uploads/2022/11/Strategic_Visioning_White_Paper_-_Executive_Summary.pdf">Read the Executive Summary</a></p>
+<p class="fancyLink"><a href="#">Download condimentum scelerisqu</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"4vw"} -->
@@ -32,7 +32,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph -->
-<p>From there, Plowman appointed two committees to lead the process of drafting the vision. An executive committee engaged the campus and broader community to bring ideas to the table and begin developing a mission, vision, and values statement. A larger visioning committee offered input and feedback in shaping the drafts.</p>
+<p>Quisque eu vestibulum enim. Donec lobortis eros eget eros tristique, at volutpat diam facilisis. Nullam vulputate quam fringilla ligula condimentum scelerisque. Nullam rutrum orci sed tortor vehicula vehicula.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"2vw"} -->
@@ -42,17 +42,13 @@
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:paragraph -->
-<p>Just weeks after the committees were appointed in March 2020, the COVID-19 pandemic hit, forcing a brief pause on their work. Committees reconvened in summer 2020 and held listening sessions to collect input from students, faculty, staff, alumni, and external stakeholders. More than 800 people contributed to the process.</p>
+<p>Aenean condimentum aliquam scelerisque. Suspendisse et leo metus. Morbi iaculis nisl lorem, ac feugiat tortor facilisis in. Sed sed hendrerit velit. Curabitur id elementum tortor. Aenean vel maximus enim, eu fringilla leo. Vestibulum erat ante, dictum ut viverra id, pretium non nulla.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:paragraph -->
-<p>After additional feedback and refinement from leadership and the campus advisory board, the new vision was presented to and <a href="https://news.utk.edu/2021/10/22/trustees-approve-new-strategic-vision-for-knoxville-campus/">unanimously approved by the UT Board of Trustees in October 2021</a>.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>The vision is grounded in the pursuit of academic excellence, life-changing research, and the core values of leadership and service that define the Volunteer spirit.</p>
+<p>Cras finibus, nisl porta fermentum malesuada, mauris ipsum dictum lacus, id dignissim lacus ipsum et ligula. Morbi finibus, libero quis molestie blandit, nibh sem rutrum eros, <a href="#">quis volutpat nisl tortor id urna. </a>Duis viverra convallis nisi eget gravida. Pellentesque id mauris pulvinar, convallis tellus vitae, semper lectus. Pellentesque accumsan fringilla convallis.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
@@ -63,8 +59,8 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:spacer {"height":"250px"} -->
-<div style="height:250px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"15vw"} -->
+<div style="height:15vw" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover -->

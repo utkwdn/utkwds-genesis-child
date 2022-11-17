@@ -13,11 +13,11 @@
 <div class="wp-block-group"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"40%"} -->
 <div class="wp-block-column" style="flex-basis:40%"><!-- wp:heading {"level":1,"textColor":"smokey"} -->
-<h1 class="has-smokey-color has-text-color">University Leadership</h1>
+<h1 class="has-smokey-color has-text-color">Maecenas Aliquam</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"lead"} -->
-<p class="lead">The University of Tennessee, Knoxville, is guided by academic and administrative leaders from across campus.</p>
+<p class="lead">Vestibulum mollis eu neque vitae ornare. Mauris faucibus, odio eget laoreet aliquet, mi nibh gravida risus.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"34px"} -->
@@ -31,8 +31,8 @@
 
 <!-- wp:column {"width":"60%"} -->
 <div class="wp-block-column" style="flex-basis:60%"><!-- wp:group {"className":"framedOrangeShadow"} -->
-<div class="wp-block-group framedOrangeShadow"><!-- wp:image {"id":5215,"sizeSlug":"large","linkDestination":"none","className":"clipCorner-tl"} -->
-<figure class="wp-block-image size-large clipCorner-tl"><img src="https://chancellor-dev.utk.edu/wp-content/uploads/2022/11/university-leadership-02-1024x683.jpg" alt="University of Tennessee leadership speaking to students. " class="wp-image-5215"/></figure>
+<div class="wp-block-group framedOrangeShadow"><!-- wp:image {"id":5215,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://images.utk.edu/wds/sub-intro-placeholder-1024x683.png" alt="Sub Feature Image 1024 x 683" class="wp-image-5215"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
