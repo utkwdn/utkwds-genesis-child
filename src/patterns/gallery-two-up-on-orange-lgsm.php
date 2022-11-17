@@ -8,17 +8,16 @@
 
 ?>
 
-
-<!-- wp:spacer {"height":"10vw"} -->
-<div style="height:10vw" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"5vw"} -->
+<div style="height:5vw" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
 <!-- wp:cover {"customGradient":"linear-gradient(180deg,rgb(255,255,255) 43%,rgb(255,130,0) 43%)","isDark":false,"align":"full","className":"twoUp-gallery-lgsm"} -->
 <div class="wp-block-cover alignfull is-light twoUp-gallery-lgsm"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient" style="background:linear-gradient(180deg,rgb(255,255,255) 43%,rgb(255,130,0) 43%)"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"inherit":false}} -->
 <div class="wp-block-group"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"57%"} -->
-<div class="wp-block-column" style="flex-basis:57%"><!-- wp:image {"align":"right","id":5004,"sizeSlug":"full","linkDestination":"none","className":"clipCorner-tl"} -->
-<figure class="wp-block-image alignright size-full clipCorner-tl"><img src="https://images.utk.edu/wds/gallery-2up-placeholder-large.png" alt="Large Image Placeholder 1108 x 736" class="wp-image-5004"/></figure>
+<div class="wp-block-column" style="flex-basis:57%"><!-- wp:image {"align":"right","id":5004,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image alignright size-full"><img src="https://images.utk.edu/wds/gallery-2up-placeholder-large.png" alt="Large Image Placeholder 1108 x 736" class="wp-image-5004"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 

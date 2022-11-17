@@ -93,3 +93,9 @@
     margin-bottom: 0;
   }
 }
+.twoUp-gallery-smlg figure:first-of-type {
+  // margin-bottom: -5rem;
+  @media screen and (min-width: 700px) {
+    margin-bottom: 0;
+  }
+}
