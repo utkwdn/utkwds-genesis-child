@@ -61,27 +61,6 @@
     margin: 0 calc(50% - 50vw);
   }
 }
-.clipCorner-tr-container {
-  --notchSize: 5vw;
-  clip-path: polygon(
-    0% 0%,
-    var(--notchSize) 0%,
-    calc(100% - var(--notchSize)) 0%,
-    100% var(--notchSize),
-    100% 100%,
-    100% 100%,
-    0% 100%,
-    0% 0%
-  );
-}
-.clipCorner-tr-container-sm {
-  @extend .clipCorner-tr-container;
-  --notchSize: 2.5vw !important;
-}
-
-.clipCorner-tr img {
-  @extend .clipCorner-tr-container;
-}
 
 .clipCorner-tl-container {
   --notchSize: 5vw;
@@ -94,31 +73,6 @@
     100% 100%,
     0% 100%
   );
-}
-
-.clipCorner-tl img {
-  @extend .clipCorner-tl-container;
-}
-
-.clipCorner-br-container {
-  --notchSize: 5vw;
-  clip-path: polygon(
-    0% 0%,
-    100% 0,
-    100% calc(100% - var(--notchSize)),
-    calc(100% - var(--notchSize)) 100%,
-    var(--notchSize) 100%,
-    0% 100%
-  );
-}
-
-.clipCorner-br-container-sm {
-  @extend .clipCorner-br-container;
-
-  --notchSize: 2.5vw !important;
-}
-.clipCorner-br img {
-  @extend .clipCorner-br-container;
 }
 
 .fontLight {
@@ -183,29 +137,6 @@ h1.adaOrange {
   }
 }
 
-.torchTweak {
-  overflow: visible;
-  img.wp-block-cover__image-background {
-    // border: 2px solid red !important;
-    position: absolute;
-    background-position: left;
-    margin-left: -8rem !important;
-    width: 65% !important;
-    animation: titleIn 3s ease 1;
-  }
-}
-@keyframes titleIn {
-  0% {
-    transform: translateX(-50px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
 .ch-short {
   max-width: 40ch;
 }
@@ -232,96 +163,6 @@ h1.adaOrange {
   column-count: 2;
 }
 
-.cliftonStrengthsList {
-  // add orange squares between each of the strengths
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  position: relative;
-  list-style: none;
-  justify-content: flex-start;
-  align-items: flex-start;
-  text-align: left;
-  padding: 0;
-  margin-bottom: calc($spacer * 2);
-  gap: calc($spacer / 4) calc($spacer * 1.5);
-
-  color: #707070;
-  // color: var(--wp--preset--color--smokey;
-  li {
-    // &:after {
-    //   content: '■';
-    //   color: $utorange;
-    //   position: relative;
-    //   padding: 0.5rem;
-
-    // }
-    font-weight: $font-weight-normal;
-    // text-transform: uppercase;
-    font-style: italic;
-    font-size: $font-size-sm;
-  }
-  // &:last-child {
-  //   &:after {
-  //     content: url('https://images.utk.edu/wds/clifton-strengths-icon.svg');
-  //     padding-top: 0.25rem;
-  //     align-self: center;
-  //     display: inline-block;
-  //     position: relative;
-  //     left: 0;
-
-  //     margin-left: 0.5rem;
-  //   }
-  // }
-  &:before {
-    content: url('https://images.utk.edu/wds/clifton-strengths-icon.svg');
-    padding-top: 0.25rem;
-    transform: scale(0.75);
-    transform-origin: top left;
-    align-self: center;
-    display: block;
-    position: relative;
-    left: 0;
-    flex-basis: 100%;
-    margin-top: $spacer;
-    margin-bottom: -0.5rem;
-  }
-}
-.removeCliftonIcon {
-  &:before {
-    content: none;
-  }
-}
-
-.cliftonContext {
-  position: relative;
-  display: flex;
-  align-items: center;
-  text-transform: uppercase;
-  font-size: $h6-font-size;
-  flex-direction: row;
-  margin-top: calc($spacer * 2.25);
-  // a {
-  //   color: $utsmokey;
-  //   &:hover {
-  //     color: #114c81;
-  //   }
-  // }
-
-  &:after {
-    content: url('https://images.utk.edu/wds/clifton-strengths-icon.svg');
-    padding-top: 0.25rem;
-    align-self: center;
-    transform: scale(0.75);
-    transform-origin: top left;
-    display: block;
-    position: relative;
-    left: 0;
-    margin-left: 0.5rem;
-    margin-bottom: -0.5rem;
-  }
-}
-
 .fancyLinkGroup {
   display: flex;
   flex-direction: row;
@@ -334,41 +175,6 @@ h1.adaOrange {
     margin-right: calc($spacer * 4.25);
   }
 }
-
-// // styling to add to text that has been linked in the page. Adds animated > on hover Using SOLID > with underline
-// .fancyLink a {
-//   // font-size: 1.2rem;
-//   /* default button size is $font-size-base: 1.25 So removing override for now since it is close, allows btn-lg and btn-sm to take affect */
-//   line-height: 1.3rem; // keeps > in correct alignment
-//   text-decoration: none;
-//   position: relative;
-//   display: inline-block;
-//   margin: calc($spacer * 0.5) 0;
-//   padding: 0 0.5rem 0.5rem 0;
-//   box-shadow: inset 0px -1px $utorange;
-//   font-style: italic;
-//   font-weight: 600;
-//   letter-spacing: 0.01rem;
-//   text-align: right;
-//   &:after {
-//     content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='22' fill='%23ff8200' viewBox='0 0 25 26' %3E%3Cpath d='M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z' /%3E%3C/svg%3E");
-//     margin-left: 0.5rem;
-//     display: inline-block;
-//     position: absolute;
-//     transition: all 0.2s ease-out;
-//   }
-//   &:hover {
-//     text-decoration: none;
-//     box-shadow: inset 0px -1px $utlinkriver;
-//   }
-//   &:hover:after {
-//     margin-left: 0.7rem;
-//   }
-//   .bi {
-//     /* turning off any chosen icons */
-//     display: none;
-//   }
-// }
 
 // styling to add to text that has been linked in the page. Adds animated --> on hover
 .fancyLink a {
