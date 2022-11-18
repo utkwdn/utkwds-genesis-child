@@ -1,7 +1,7 @@
 <?php
 if ( ! defined( 'UTKCHANCELLOR_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'UTKCHANCELLOR_VERSION', '0.1.3' );
+	define( 'UTKCHANCELLOR_VERSION', '0.8' );
 }
 include_once( get_template_directory() . '/lib/init.php' );
 
@@ -11,6 +11,7 @@ include_once( get_template_directory() . '/lib/init.php' );
 
 // Get the stylesheet
  function mychildtheme_enqueue_styles() {
+	wp_enqueue_style( 'utkchancellor-fontstyle', 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,900;1,400;1,700;1,900&display=swap' );
 	wp_enqueue_style( 'utkchancellor-style', get_template_directory_uri() . '/style.css', array(), UTKCHANCELLOR_VERSION, true );
 	wp_enqueue_script( 'utkchancellor-bootstrap',  'https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js', array(), UTKCHANCELLOR_VERSION, true ); 
 	wp_enqueue_script( 'utkchancellor-script', get_stylesheet_directory_uri() . '/js/utk.js', array(), UTKCHANCELLOR_VERSION, true ); 
