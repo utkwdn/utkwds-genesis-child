@@ -50,7 +50,7 @@ function utkchancellor_sidebar() {
 // ===============================================================
 
 require_once ( 'functions/filter-mobile-nav.php' );
-require_once ( 'functions/filter-region-headsearch.php' );
+require_once ( 'functions/filter-region-footer.php' );
 require_once ( 'functions/filter-region-universalheader.php' );
 
 
