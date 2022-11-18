@@ -50,7 +50,6 @@
     position: relative;
     @media screen and (min-width: 700px) {
       left: calc($spacer * -5);
-
       line-height: calc($line-height-base * 0.2) !important;
     }
     // top: (-1 * ($spacer * 0.5));
