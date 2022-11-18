@@ -240,7 +240,6 @@
   padding: 2rem;
   flex-direction: column;
   align-items: flex-start;
-  @extend .clipCorner-br-container-sm;
   h3 {
     font-size: 1.75rem;
     width: auto;
@@ -251,14 +250,12 @@
   }
 }
 .profileCard {
-  @extend .clipCorner-br-container-sm;
   flex-direction: column;
   @media screen and (min-width: 550px) {
     flex-direction: row;
   }
 }
 .bioCard {
-  @extend .clipCorner-br-container;
 }
 
 .profileCard > * {
@@ -383,7 +380,8 @@
   // border-radius: 0 0 30px 0;
   // border-radius is being overwritten with clip corner – might use rounded in WDS instead?
   // height: 100%; // breaks equal height cards. no good.
-  @extend .clipCorner-br-container-sm;
+
+  border-radius: 0 0 30px 0;
   @media screen and (min-width: 900px) {
     flex-basis: 46%;
     flex-basis: calc((98% - 3rem) / 2);
