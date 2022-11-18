@@ -47,7 +47,7 @@ p.fancyLink a {
   padding: 0 0.5rem 0.5rem 0;
   box-shadow: inset 0px -1px $utorange;
   font-style: italic;
-  font-weight: 600;
+  font-weight: $font-weight-bold;
   letter-spacing: 0.01rem;
   text-align: right;
   &:after {
