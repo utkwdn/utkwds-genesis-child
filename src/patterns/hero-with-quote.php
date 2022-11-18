@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Hero with Quote
- * Slug: utkchancellor/hero-with-quote
- * Categories: utkchancellor-general
+ * Slug: wds-intro/hero-with-quote
+ * Categories: wds-intro
  * Viewport Width: 1500
  */
 

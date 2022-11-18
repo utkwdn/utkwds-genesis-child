@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Media Text Callout with Fancy Links
- * Slug: utkchancellor/media-text-callout-with-fancy-links
- * Categories: utkchancellor-general
+ * Slug: wds-text/media-text-callout-with-fancy-links
+ * Categories: wds-text
  * Viewport Width: 1500
  */
 

@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Bio Card Group
- * Slug: utkchancellor/bio-card-group
- * Categories: utkchancellor-general
+ * Slug: wds-cards/bio-card-group
+ * Categories: wds-cards
  * Viewport Width: 1500
  */
 

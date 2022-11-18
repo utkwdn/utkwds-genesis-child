@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Tertiary Page Intro
- * Slug: utkchancellor/tertiary-page-intro
- * Categories: utkchancellor-general
+ * Slug: wds-intro/tertiary-page-intro
+ * Categories: wds-intro
  * Viewport Width: 1500 
  */
 

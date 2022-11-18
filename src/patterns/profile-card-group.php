@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Profile Card Group
- * Slug: utkchancellor/profile-card-group
- * Categories: utkchancellor-general
+ * Slug: wds-cards/profile-card-group
+ * Categories: wds-cards
  * Viewport Width: 1500 
  */
 

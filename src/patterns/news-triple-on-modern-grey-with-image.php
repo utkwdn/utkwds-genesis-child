@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: News triple on Modern Grey with Image
- * Slug: utkchancellor/news-triple-on-modern-grey-with-image
- * Categories: utkchancellor-general
+ * Slug: wds-news/news-triple-on-modern-grey-with-image
+ * Categories: wds-news
  * Viewport Width: 1500 
  */
 

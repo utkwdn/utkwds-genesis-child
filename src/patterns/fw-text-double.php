@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Full Width Text with Double Images
- * Slug: utkchancellor/fw-text-double
- * Categories: utkchancellor-general
+ * Slug: wds-text/fw-text-double
+ * Categories: wds-text
  * Viewport Width: 1280  
  */
 

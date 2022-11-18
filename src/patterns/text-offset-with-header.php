@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Text Offset with Header
- * Slug: utkchancellor/text-offset-with-header
- * Categories: utkchancellor-general
+ * Slug: wds-text/text-offset-with-header
+ * Categories: wds-text
  * Viewport Width: 1500 
  */
 

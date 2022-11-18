@@ -1,8 +1,8 @@
 <?php
 /**
- * Title: Text Group with Subtle Grey Bkg
- * Slug: utkchancellor/text-group-complex
- * Categories: utkchancellor-general
+ * Title: Text Group Complex
+ * Slug: wds-text/text-group-complex
+ * Categories: wds-text
  * Viewport Width: 1500 
  */
 
@@ -12,7 +12,7 @@
 <div class="wp-block-group"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"66.66%"} -->
 <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:heading {"textColor":"smokey"} -->
-<h2 class="has-smokey-color has-text-color">The Process</h2>
+<h2 class="has-smokey-color has-text-color">Nulla Tortor</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"lead"} -->

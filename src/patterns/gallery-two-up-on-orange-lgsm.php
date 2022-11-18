@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Gallery Two Up on Orange Large Small
- * Slug: utkchancellor/gallery-two-up-on-orange-lgsm
- * Categories: utkchancellor-general
+ * Slug: wds-gallery/gallery-two-up-on-orange-lgsm
+ * Categories: wds-gallery
  * Viewport Width: 1500
  */
 

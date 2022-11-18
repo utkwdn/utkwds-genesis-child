@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Fancy Link Group
- * Slug: utkchancellor/fancy-link-group
- * Categories: utkchancellor-general
+ * Slug: wds-buttons/fancy-link-group
+ * Categories: wds-buttons
  * Viewport Width: 1500
  */
 

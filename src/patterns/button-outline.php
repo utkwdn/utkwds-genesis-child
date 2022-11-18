@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Button Outline
- * Slug: utkchancellor/button-outline
- * Categories: utkchancellor-general
+ * Slug: wds-buttons/button-outline
+ * Categories: wds-buttons
  * Viewport Width: 1500
  */
 

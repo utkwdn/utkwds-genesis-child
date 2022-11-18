@@ -1,10 +1,10 @@
 <?php
 /**
  * Title: Article with Video
- * Slug: utkchancellor/article-with-video
- * Categories: utkchancellor-general
+ * Slug: wds-article/article-with-video
+ * Categories: wds-article
  * Description: Article pattern with embedded video
- * Viewport Width: 1290
+ * Viewport Width: 1500
  */
 
 ?>

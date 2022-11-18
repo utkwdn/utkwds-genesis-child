@@ -14,10 +14,15 @@
   background-image: none;
   display: flex;
   flex-direction: column;
-  margin: 0 0;
+  margin: calc($spacer * 3) auto;
+  width: 94%;
   padding: 0;
   // padding-top: calc($spacer * 4);
   position: relative;
+  @media screen and (min-width: 1500px) {
+    margin-left: calc($spacer * -3);
+  }
+
   & > p {
     border-left: 2px solid $utorange;
     padding-left: calc($spacer * 2);
@@ -31,19 +36,23 @@
     // animation-play-state: paused;
     // animation-delay: calc(var(scroll) * -1s);
     content: open-quote;
-    left: calc($spacer * -5);
+    left: calc($spacer * -0.9);
     top: calc($spacer * 2);
     font-family: $font-family-sans-serif;
     font-weight: $font-weight-ultra;
     font-size: calc($h1-font-size * 1.6);
-    line-height: calc($line-height-base * 0.2);
+    line-height: calc($line-height-base * 1.2) !important;
     // font-size: clamp(8rem, 20vw, 13rem);
     display: block;
     color: $utorange;
     padding: 0;
     margin: 0;
     position: relative;
+    @media screen and (min-width: 700px) {
+      left: calc($spacer * -5);
 
+      line-height: calc($line-height-base * 0.2) !important;
+    }
     // top: (-1 * ($spacer * 0.5));
   }
   &:after {
@@ -117,16 +126,23 @@
       left: calc($spacer * -0.9);
       bottom: calc($spacer * -0.25);
       font-size: calc($h1-font-size * 1.6);
-      line-height: calc($line-height-base * 1.2);
+      line-height: calc($line-height-base * 1.2) !important;
       margin: 0;
       padding: 0;
     }
   }
 }
 
-.thoughtHero .blockquote {
+.thoughtHero .blockquote,
+.CalloutQuote .blockquote {
+  width: 100%;
+
+  margin-left: 0;
+  margin: $spacer 0;
+
   @media screen and (max-width: 700px) {
     &:before {
+      // moves quote marks to top on mobile
       left: calc($spacer * -0.9);
       bottom: calc($spacer * -0.25);
       font-size: calc($h1-font-size * 1.6);

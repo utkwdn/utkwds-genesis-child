@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Subject Card Group
- * Slug: utkchancellor/subject-card-group
- * Categories: utkchancellor-general
+ * Slug: wds-cards/subject-card-group
+ * Categories: wds-cards
  * Viewport Width: 1500 
  */
 

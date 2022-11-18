@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: News Featured Op Ed
- * Slug: utkchancellor/news-featured-op-ed
- * Categories: utkchancellor-general
+ * Slug: wds-news/news-featured-op-ed
+ * Categories: wds-news
  * Viewport Width: 1500 
  */
 

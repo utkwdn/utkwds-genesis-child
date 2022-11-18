@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: News Triple with Header
- * Slug: utkchancellor/news-triple-with-header
- * Categories: utkchancellor-general
+ * Slug: wds-news/news-triple-with-header
+ * Categories: wds-news
  * Viewport Width: 1500 
  */
 

@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Sub Page Intro
- * Slug: utkchancellor/sub-page-intro
- * Categories: utkchancellor-general
+ * Slug: wds-intro/sub-page-intro
+ * Categories: wds-intro
  * Viewport Width: 1500 
  */
 

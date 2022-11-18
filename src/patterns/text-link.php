@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Text link
- * Slug: utkchancellor/text-link
- * Categories: utkchancellor-general
+ * Slug: wds-buttons/text-link
+ * Categories: wds-buttons
  * Viewport Width: 1500
  */
 

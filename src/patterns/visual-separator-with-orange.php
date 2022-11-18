@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Visual Separator with Orange Bar
- * Slug: utkchancellor/visual-separator-with-orange
- * Categories: utkchancellor-general
+ * Slug: wds-gallery/visual-separator-with-orange
+ * Categories: wds-gallery
  * Viewport Width: 1500 
  */
 
