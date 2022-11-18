@@ -30,6 +30,9 @@
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
+        > * {
+          flex: 1;
+        }
       }
       img {
         width: 90%;
@@ -89,6 +92,12 @@
 // Two up Gallery (large first) Forces image to overlap with orange bar on mobile. Grounds the image.
 .twoUp-gallery-lgsm figure:first-of-type {
   margin-bottom: -5rem;
+  @media screen and (min-width: 700px) {
+    margin-bottom: 0;
+  }
+}
+.twoUp-gallery-smlg figure:first-of-type {
+  // margin-bottom: -5rem;
   @media screen and (min-width: 700px) {
     margin-bottom: 0;
   }
