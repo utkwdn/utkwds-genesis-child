@@ -9,9 +9,7 @@ function wds_register_block_pattern_categories() {
 
 	/* Functionality specific to the Block Pattern Explorer plugin. */
 	if ( function_exists( 'register_block_pattern_category_type' ) ) {
-		register_block_pattern_category_type( 'utkchancellor', array( 'label' => __( 'utkchancellor', 'utkchancellor' ) ) );
-
-		register_block_pattern_category_type( 'wds-article', array( 'label' => __( 'WDS Article', 'wds-article' ) ) );
+	register_block_pattern_category_type( 'wds-article', array( 'label' => __( 'WDS Article', 'wds-article' ) ) );
 		register_block_pattern_category_type( 'wds-buttons', array( 'label' => __( 'WDS Buttons', 'wds-buttons' ) ) );
 		register_block_pattern_category_type( 'wds-cards', array( 'label' => __( 'WDS Cards', 'wds-cards' ) ) );
 		register_block_pattern_category_type( 'wds-gallery', array( 'label' => __( 'WDS Gallery', 'wds-gallery' ) ) );
@@ -21,10 +19,6 @@ function wds_register_block_pattern_categories() {
 	}
 
 	$block_pattern_categories = array(
-		'utkchancellor-general' => array(
-			'label'         => __( 'Chancellor', 'utkchancellor' ),
-			'categoryTypes' => array( 'utkchancellor' ),
-		),
 		'wds-article' => array(
 			'label'         => __( 'WDS Article', 'wds-article' ),
 			'categoryTypes' => array( 'wds-article' ),
