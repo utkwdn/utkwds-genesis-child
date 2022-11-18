@@ -312,8 +312,7 @@ $nav-pills-link-active-bg: $utgray1 !default;
 
 // scss-docs-start font-variables
 // stylelint-disable value-keyword-case
-$font-family-sans-serif: "Gotham A", "Gotham B", "Gotham SSm 4r", "Gotham SSm A",
-  "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, system-ui, -apple-system,
+$font-family-sans-serif: "Montserrat", "Helvetica Neue", Helvetica, Arial, system-ui, -apple-system,
   sans-serif !default;
 $font-family-serif: Georgia, "Times New Roman", Times, serif !default;
 $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
@@ -323,8 +322,7 @@ $font-family-base: var(--#{$variable-prefix}font-sans-serif) !default;
 $font-family-code: var(--#{$variable-prefix}font-monospace) !default;
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif: "Gotham A", "Gotham B", "Gotham SSm 4r", "Gotham SSm A",
-  "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-size-base: 1.25rem; // Assumes the browser default, typically `16px`
 
 $font-size-base: 1.1rem; // This is setting base font to 17.6px 
@@ -334,7 +332,7 @@ $font-size-sm: $font-size-base * 0.875 !default;
 
 $font-weight-lighter: lighter !default;
 $font-weight-light: 200 !default;
-$font-weight-normal: 400 !default;
+$font-weight-normal: 500 !default;
 $font-weight-bold: 700;
 $font-weight-bolder: 800;
 $font-weight-ultra: 900;
