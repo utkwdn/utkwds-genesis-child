@@ -191,7 +191,7 @@ h1.adaOrange {
   // justify-content: flex-start;
   // box-shadow: inset 0px -1px $utorange;
   // font-style: italic;
-  font-weight: 600;
+  font-weight: $font-weight-bold;
   letter-spacing: 0.01rem;
   text-align: rileght;
   color: $utsmokey;
@@ -200,7 +200,6 @@ h1.adaOrange {
   // }
   * {
     display: inline-flex;
-    border: 1px solid red;
   }
 
   &:after {
