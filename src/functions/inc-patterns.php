@@ -64,7 +64,7 @@ function wordpress_unregister_category() {
 	unregister_block_pattern_category( 'header');
 	unregister_block_pattern_category( 'text');
 	unregister_block_pattern_category( 'columns');
-	unregister_block_pattern_category( 'uncategorized');
+	// unregister_block_pattern_category( 'uncategorized');
 
 }
 add_action( 'init', 'wordpress_unregister_category');

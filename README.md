@@ -8,7 +8,7 @@
 
 ---
 
-The UT Genesis Child Theme was made to help UT web developers build interfaces that match UT's visual identity and make consistent the user interface of a variety of digital products, in lieu of the finished Web Design System theme
+The UT Genesis Child Theme was made to help UT web developers build interfaces that match UT's visual identity and make consistent the user interface of a variety of digital products, in lieu of the finished Web Design System theme.
 
 ---
 
@@ -39,3 +39,43 @@ The NPM commands are:
 - `npm run dist` will minimize all images and css and javascript for production and place a production ready version of the theme in the `\dist\` directory.
 
 **Note**: The JS and CSS is edited in the framework project. The theme references [javascript](https://images.utk.edu/designsystem/v1/latest/assets/js/utk.js) and [css](https://images.utk.edu/designsystem/v1/latest/assets/css/style.css) files on the images server.
+
+---
+
+## Setting up your site the Genesis Theme.
+
+### Step one, install the Genesis theme
+
+The Genesis Theme can be found on the [StudioPress site](https://www.studiopress.com/themes/genesis/), download it and install it on your site.
+
+### Step two, install the UT Genesis Child Theme
+
+Create the child theme by running `npm run dist` as defined above. The child theme can now be found in the `dist` directory of your project. Install it and activate it on your site.
+
+### Step three, set up your site
+
+Once logged in to the WordPress dashboard, open the customizer (found in "Appearance > Customize") and open the "Header Image" panel. Upload the `powert.png` file included in this repository. Skip cropping, and press publish.
+
+Save your settings and close the customizer, click on "Genesis > Import/Export". Import the Genesis settings using the `genesis-theme-settings.json` file inlcuded in this repository.
+
+Visit "Appearance > Widgets" and remove the widgets from the "Header Right" sidebar.
+
+Create a menu, and apply it to the "Primary Navigation Menu" location.
+
+---
+
+## Other things to know
+
+Your site will likely look a little broken until you create a menu. Your menu should only be one page deep (for the drop downs to work).
+
+There is a sidebar called "Footer Sidebar". It was developed to add content (mostly contact information) to the footer area of your site.
+
+Several patterns have been created, and are categorized with a "WDS" prefix. They work well with our brand and are imagined to be a starting point to help speed up development of content.
+
+There are many features with Genesis, including plugins that add extra, "custom" blocks. We have chosen not to use these, in order to make the transition to the future WDS simpler.
+
+Likewise, there are "Theme SEO" settings that Genesis adds, however we recommend using the [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/) plugin.
+
+---
+
+For extra Genesis help, see [Genesis Tutorials](https://genesistutorials.com) and the officieal [Genesis Resources](https://developer.wpengine.com).
