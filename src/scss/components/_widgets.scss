@@ -6,11 +6,7 @@
   .widget-title {
     @extend .card-title;
     @extend .text-uppercase;
-    @extend .quietHeading;
     margin-bottom: calc($spacer * 3);
-    // font-size: calc($h4-font-size * 0.6);
-
-    // font-weight: $font-weight-normal;
   }
   ul {
     @extend .list-unstyled;
