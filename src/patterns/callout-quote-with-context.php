@@ -15,11 +15,7 @@
 
 <!-- wp:group {"className":"thoughtCardContainer","layout":{"wideSize":"60%"}} -->
 <div class="wp-block-group thoughtCardContainer"><!-- wp:group {"className":"thoughtCard","layout":{"wideSize":"90%"}} -->
-<div class="wp-block-group thoughtCard"><!-- wp:heading {"textAlign":"left","textColor":"smokeyX","className":"quietHeading"} -->
-<h2 class="has-text-align-left quietHeading has-smokey-x-color has-text-color">Suscipit Consectetur</h2>
-<!-- /wp:heading -->
-
-<!-- wp:heading {"textColor":"smokey"} -->
+<div class="wp-block-group thoughtCard"><!-- wp:heading {"textColor":"smokey"} -->
 <h2 class="has-smokey-color has-text-color">Pellentesque habitant morbi</h2>
 <!-- /wp:heading -->
 
