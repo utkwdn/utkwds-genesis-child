@@ -99,28 +99,22 @@ gulp.task('distsrc', function () {
   return gulp.src('src/**').pipe(gulp.dest('dist/genesis-child'));
 });
 
-gulp.task('watch', function () {
-  gulp
-    .watch('./src/scss/**/*.scss', gulp.series('sass'))
-    .on('change', function (event) {
-      console.log(
-        'File ' + event.path + ' was ' + event.type + ', running tasks...'
-      );
-    });
-  gulp
-    .watch('./src/js/*.js', gulp.series('scripts'))
-    .on('change', function (event) {
-      console.log(
-        'File ' + event.path + ' was ' + event.type + ', running tasks...'
-      );
-    });
-  gulp
-    .watch('./src/**', gulp.series('buildsrc'))
-    .on('change', function (event) {
-      console.log(
-        'File ' + event.path + ' was ' + event.type + ', running tasks...'
-      );
-    });
+gulp.task('watch', function() {
+  gulp.watch('./src/scss/**/*.scss', gulp.series('sass'))
+  .on('change', function(event) {
+    console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+  });  gulp.watch('./src/scss/**/*.scss', gulp.series('editorsass'))
+  .on('change', function(event) {
+    console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+  });
+  gulp.watch('./src/js/*.js', gulp.series('scripts'))
+  .on('change', function(event) {
+    console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+  });
+  gulp.watch('./src/**', gulp.series('buildsrc'))
+  .on('change', function(event) {
+    console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+  });
 });
 
 gulp.task('default', gulp.series('sass','editorsass','scripts','buildsrc','watch'));
