@@ -232,7 +232,7 @@
   align-content: stretch;
   background-color: #fafafa;
   background-color: $utgray1;
-  border-radius: 0 0 30px 0;
+  // border-radius: 0 0 30px 0;
   // border-radius is being overwritten below. We might use this instead of the angle in WDS?
   // height: 100%;   // breaks equal height cards. no good.
 }
@@ -381,7 +381,7 @@
   // border-radius is being overwritten with clip corner – might use rounded in WDS instead?
   // height: 100%; // breaks equal height cards. no good.
 
-  border-radius: 0 0 30px 0;
+  // border-radius: 0 0 30px 0;
   @media screen and (min-width: 900px) {
     flex-basis: 46%;
     flex-basis: calc((98% - 3rem) / 2);

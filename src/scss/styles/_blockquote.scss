@@ -39,7 +39,8 @@
     left: calc($spacer * -0.9);
     top: calc($spacer * 2);
     font-family: $font-family-sans-serif;
-    font-weight: $font-weight-ultra;
+    // font-weight: $font-weight-ultra;
+    font-weight: $font-weight-bolder;
     font-size: calc($h1-font-size * 1.6);
     line-height: calc($line-height-base * 1.2) !important;
     // font-size: clamp(8rem, 20vw, 13rem);
@@ -145,6 +146,8 @@
       left: calc($spacer * -0.9);
       bottom: calc($spacer * -0.25);
       font-size: calc($h1-font-size * 1.6);
+
+      font-weight: $font-weight-bolder;
       // line-height: calc($line-height-base * 1.2);
       line-height: calc($line-height-base * 1);
       margin: 0;

@@ -2,10 +2,10 @@
 
 .solid-news-triple {
   .has-light-grey-to-white-gradient-background {
-    transform: scale(2.5);
+    transform: scaleX(2.5);
 
     @media screen and (min-width: 1200px) {
-      transform: scale(2.5);
+      transform: scaleX(2.5);
     }
     @media screen and (min-width: 1200px) {
       transform: none;
