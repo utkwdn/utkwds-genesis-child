@@ -44,7 +44,7 @@ The NPM commands are:
 
 ## Setting up your site the Genesis Theme.
 
-### Step one, install the Genesis theme
+### Step one, install the Genesis Theme
 
 The Genesis Theme can be found on the [StudioPress site](https://www.studiopress.com/themes/genesis/), download it and install it on your site.
 
