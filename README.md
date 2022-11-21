@@ -8,7 +8,7 @@
 
 ---
 
-The UT Genesis Child Theme was made to help UT web developers build interfaces that match UT's visual identity and make consistent the user interface of a variety of digital products, in lieu of the finished Web Design System theme
+The UT Genesis Child Theme was made to help UT web developers build interfaces that match UT's visual identity and make consistent the user interface of a variety of digital products, in lieu of the finished Web Design System theme.
 
 ---
 
@@ -46,7 +46,7 @@ The NPM commands are:
 
 ### Step one, install the Genesis theme
 
-The Genesis theme can be found on the [StudioPress site](https://www.studiopress.com/themes/genesis/), download it and install it on your site.
+The Genesis Theme can be found on the [StudioPress site](https://www.studiopress.com/themes/genesis/), download it and install it on your site.
 
 ### Step two, install the UT Genesis Child Theme
 
