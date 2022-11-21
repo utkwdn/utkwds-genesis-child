@@ -39,3 +39,27 @@ The NPM commands are:
 - `npm run dist` will minimize all images and css and javascript for production and place a production ready version of the theme in the `\dist\` directory.
 
 **Note**: The JS and CSS is edited in the framework project. The theme references [javascript](https://images.utk.edu/designsystem/v1/latest/assets/js/utk.js) and [css](https://images.utk.edu/designsystem/v1/latest/assets/css/style.css) files on the images server.
+
+---
+
+## Setting up your site the Genesis Theme.
+
+### Step one, install the Genesis theme
+
+The Genesis theme can be found on the [StudioPress site](https://www.studiopress.com/themes/genesis/), download it and install it on your site.
+
+### Step two, install the UT Genesis Child Theme
+
+Create the child theme by running `npm run dist` as defined above. The child theme can now be found in the `dist` directory of your project. Install it and activate it on your site.
+
+### Step three, set up your site
+
+Once logged in to the WordPress dashboard, open the customizer (found in "Appearance > Customize") and open the "Header Image" panel. Upload the `powert.png` file included in this repository.
+
+Save your settigns and close the customizer, click on "Genesis > Import/Export". Import the Genesis settings using the `genesis-theme-settings.json` file inlcuded in this repository.
+
+---
+
+**Note**: There are many features with Genesis, including plugins that add extra, "custom" blocks. We have chosen not to use these, in order to make the transition to the future WDS simpler.
+
+For extra Genesis help, see [Genesis Tutorials](https://genesistutorials.com).
