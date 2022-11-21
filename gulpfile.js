@@ -11,9 +11,10 @@ var sassOptions = {
 };
 
 // Set variables
-var input = './src/style.scss';
+var input        = './src/style.scss';
+var editorcss    = './src/editor-style.scss';
 var inputscripts = './src/js/';
-var output = './build/';
+var output       = './build/';
 
 // // Compile Stylesheets
 gulp.task('sass', function () {
@@ -27,6 +28,15 @@ gulp.task('sass', function () {
     .pipe(sass.sync({ outputStyle: 'expanded' }).on('error', sass.logError))
     .pipe(gulp.dest(output));
 });
+// // Compile Editor Stylesheets
+gulp.task('editorsass', function () {
+  return gulp.src(editorcss)
+    .pipe(sass({
+       includePaths: ["./node_modules","./src" ]
+    }).on('error', sass.logError))
+    .pipe(sass.sync({outputStyle: 'expanded'}).on('error', sass.logError))
+    .pipe(gulp.dest(output));
+ });
 
 // Compile Scripts
 gulp.task('scripts', function () {
@@ -49,6 +59,7 @@ gulp.task('buildsrc', function () {
 
 // Set dist variables
 var inputcssdist = './src/style.scss';
+var inputeditordist      = './src/style.scss';
 var inputscriptsdist = './src/js/';
 var outputcssdist = './dist/genesis-child/';
 var outputjsdist = './dist/genesis-child/js';
@@ -71,6 +82,15 @@ gulp.task('distcss', function () {
       }).on('error', sass.logError)
     )
     .pipe(sass.sync({ outputStyle: 'compressed' }).on('error', sass.logError))
+    .pipe(gulp.dest(outputcssdist));
+});
+// create the distributed editor css file
+gulp.task('editordistcss', function () {
+  return gulp.src(inputeditordist)
+    .pipe(sass({
+       includePaths: ["./node_modules","./src" ]
+    }).on('error', sass.logError))
+    .pipe(sass.sync({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(gulp.dest(outputcssdist));
 });
 
@@ -103,6 +123,6 @@ gulp.task('watch', function () {
     });
 });
 
-gulp.task('default', gulp.series('sass', 'scripts', 'buildsrc', 'watch'));
-gulp.task('build', gulp.series('sass', 'scripts', 'buildsrc'));
-gulp.task('dist', gulp.series('distcss', 'distjs', 'distsrc'));
+gulp.task('default', gulp.series('sass','editorsass','scripts','buildsrc','watch'));
+gulp.task('build',   gulp.series('sass','editorsass','scripts','buildsrc'));
+gulp.task('dist',    gulp.series('distcss','editordistcss','distjs','distsrc'));
