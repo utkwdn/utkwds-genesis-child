@@ -11,8 +11,8 @@
 <div style="height:15vw" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:cover {"minHeight":1260,"minHeightUnit":"px","gradient":"light-grey-to-white","contentPosition":"bottom right","isDark":false,"align":"full","className":"p-0 clipCorner-tl-container  solid-news-triple "} -->
-<div class="wp-block-cover alignfull is-light has-custom-content-position is-position-bottom-right p-0 clipCorner-tl-container solid-news-triple" style="min-height:1260px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient has-light-grey-to-white-gradient-background"></span><div class="wp-block-cover__inner-container"><!-- wp:spacer {"height":"10vw"} -->
+<!-- wp:cover {"minHeight":1260,"minHeightUnit":"px","gradient":"light-grey-to-white","contentPosition":"bottom right","isDark":false,"align":"full","className":"p-0  solid-news-triple "} -->
+<div class="wp-block-cover alignfull is-light has-custom-content-position is-position-bottom-right p-0 solid-news-triple" style="min-height:1260px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient has-light-grey-to-white-gradient-background"></span><div class="wp-block-cover__inner-container"><!-- wp:spacer {"height":"10vw"} -->
 <div style="height:10vw" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
@@ -23,8 +23,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"30%","className":"fc-2","layout":{"inherit":true}} -->
-<div class="wp-block-column is-vertically-aligned-center fc-2" style="flex-basis:30%"><!-- wp:heading {"textAlign":"center","className":"quietHeading"} -->
-<h2 class="has-text-align-center quietHeading">Featured News</h2>
+<div class="wp-block-column is-vertically-aligned-center fc-2" style="flex-basis:30%"><!-- wp:heading {"textAlign":"center","textColor":"smokey"} -->
+<h2 class="has-text-align-center has-smokey-color has-text-color">Featured News</h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"4vw"} -->
