@@ -54,12 +54,28 @@ Create the child theme by running `npm run dist` as defined above. The child the
 
 ### Step three, set up your site
 
-Once logged in to the WordPress dashboard, open the customizer (found in "Appearance > Customize") and open the "Header Image" panel. Upload the `powert.png` file included in this repository.
+Once logged in to the WordPress dashboard, open the customizer (found in "Appearance > Customize") and open the "Header Image" panel. Upload the `powert.png` file included in this repository. Skip cropping, and press publish.
 
-Save your settigns and close the customizer, click on "Genesis > Import/Export". Import the Genesis settings using the `genesis-theme-settings.json` file inlcuded in this repository.
+Save your settings and close the customizer, click on "Genesis > Import/Export". Import the Genesis settings using the `genesis-theme-settings.json` file inlcuded in this repository.
+
+Visit "Appearance > Widgets" and remove the widgets from the "Header Right" sidebar.
+
+Create a menu, and apply it to the "Primary Navigation Menu" location.
 
 ---
 
-**Note**: There are many features with Genesis, including plugins that add extra, "custom" blocks. We have chosen not to use these, in order to make the transition to the future WDS simpler.
+## Other things to know
 
-For extra Genesis help, see [Genesis Tutorials](https://genesistutorials.com).
+Your site will likely look a little broken until you create a menu. Your menu should only be one page deep (for the drop downs to work).
+
+There is a sidebar called "Footer Sidebar". It was developed to add content (mostly contact information) to the footer area of your site.
+
+Several patterns have been created, and are categorized with a "WDS" prefix. They work well with our brand and are imagined to be a starting point to help speed up development of content.
+
+There are many features with Genesis, including plugins that add extra, "custom" blocks. We have chosen not to use these, in order to make the transition to the future WDS simpler.
+
+Likewise, there are "Theme SEO" settings that Genesis adds, however we recommend using the [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/) plugin.
+
+---
+
+For extra Genesis help, see [Genesis Tutorials](https://genesistutorials.com) and the officieal [Genesis Resources](https://developer.wpengine.com).
