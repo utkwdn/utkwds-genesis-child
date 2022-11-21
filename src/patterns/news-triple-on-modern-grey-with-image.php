@@ -24,7 +24,7 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":"30%","className":"fc-2","layout":{"inherit":true}} -->
 <div class="wp-block-column is-vertically-aligned-center fc-2" style="flex-basis:30%"><!-- wp:heading {"textAlign":"center","textColor":"smokey"} -->
-<h2 class="has-text-align-center has-smokey-color has-text-color">Featured News</h2>
+<h2 class="has-text-align-center has-smokey-color has-text-color">Bibendum Nequ</h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"4vw"} -->
