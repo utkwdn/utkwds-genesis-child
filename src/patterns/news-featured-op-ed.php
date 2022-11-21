@@ -10,11 +10,7 @@
 
 
 <!-- wp:media-text {"align":"full","mediaId":4699,"mediaLink":"https://chancellor-dev.utk.edu/2022/06/03/vols-baseball-embodies-our-culture-of-excellence/knoxville-tn-2019-05-17-tennessee-vs-ole-miss-game-2/","mediaType":"image","mediaWidth":65} -->
-<div class="wp-block-media-text alignfull is-stacked-on-mobile" style="grid-template-columns:65% auto"><figure class="wp-block-media-text__media"><img src="https://images.utk.edu/wds/op-ed-placeholder-1024x683.png" alt="Op Ed Feature Image 1024 x 683" class="wp-image-4699 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"className":"quietHeading"} -->
-<h2 class="quietHeading">Op/Ed</h2>
-<!-- /wp:heading -->
-
-<!-- wp:heading {"className":"text-decoration-none"} -->
+<div class="wp-block-media-text alignfull is-stacked-on-mobile" style="grid-template-columns:65% auto"><figure class="wp-block-media-text__media"><img src="https://images.utk.edu/wds/op-ed-placeholder-1024x683.png" alt="Op Ed Feature Image 1024 x 683" class="wp-image-4699 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"className":"text-decoration-none"} -->
 <h2 class="text-decoration-none">Fringilla urna porttitor rhoncus cegestas</h2>
 <!-- /wp:heading -->
 
