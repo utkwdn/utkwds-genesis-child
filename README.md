@@ -21,7 +21,7 @@ The UT Genesis Child Theme uses Node and Gulp to compile and compress Javascript
 1. Not required, but recommended. [Install NVM by following these instructions](https://github.com/nvm-sh/nvm#installing-and-updating). **Mac Users**: If you get an "nvm: command not found" error after running the install script (and you likely will), be sure to [follow the troubleshooting steps](https://github.com/nvm-sh/nvm#troubleshooting-on-macos).
 2. Install Node.js **Important**: [Install using NVM (recommended)](https://www.linode.com/docs/guides/how-to-install-use-node-version-manager-nvm/#using-nvm-to-install-node).
 
-### Step 2, Installing the this project:
+### Step 2, Installing this project:
 
 1. Download or `git clone` this project by typing `git clone git@github.com:utkwdn/utkwds-genesis-child.git`.
 2. In your terminal, change to the new `/utkwds-genesis-child/` directory.
@@ -44,15 +44,15 @@ The NPM commands are:
 
 ## Setting up your site the Genesis Theme.
 
-### Step one, install the Genesis Theme
+### Step 1, install the Genesis Framework
 
-The Genesis Theme can be found on the [StudioPress site](https://www.studiopress.com/themes/genesis/), download it and install it on your site.
+The Genesis Framework can be found on the [StudioPress site](https://www.studiopress.com/themes/genesis/), download it and install it on your site.
 
-### Step two, install the UT Genesis Child Theme
+### Step 2, install the UT Genesis Child Theme
 
 Create the child theme by running `npm run dist` as defined above. The child theme can now be found in the `dist` directory of your project. Install it and activate it on your site.
 
-### Step three, set up your site
+### Step 3, set up your site
 
 Once logged in to the WordPress dashboard, open the customizer (found in "Appearance > Customize") and open the "Header Image" panel. Upload the `powert.png` file included in this repository. Skip cropping, and press publish.
 
@@ -78,4 +78,4 @@ Likewise, there are "Theme SEO" settings that Genesis adds, however we recommend
 
 ---
 
-For extra Genesis help, see [Genesis Tutorials](https://genesistutorials.com) and the officieal [Genesis Resources](https://developer.wpengine.com).
+For extra Genesis help, see [Genesis Tutorials](https://genesistutorials.com) and the official [Genesis Resources](https://developer.wpengine.com).
