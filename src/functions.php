@@ -127,3 +127,20 @@ add_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
 // Hook Featured Image to Entry Header  
 remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
 add_action( 'genesis_entry_header', 'genesis_do_post_image', 2 );
+
+
+
+// Enqeue the editor styles.
+// =======================================================================
+
+// Add support for editor styles.
+add_theme_support( 'editor-styles' );
+// Enqueue editor styles.
+add_editor_style( 'editor-style.css' );
+
+// The above code is how you're supposed to add editor styles, 
+// but for some reasoon it was not working. The below function adds it though.
+
+add_action( 'enqueue_block_editor_assets', function() {
+	wp_enqueue_style( 'editor-styles', get_stylesheet_directory_uri() . "/editor-style.css", false, '1.0', 'all' );
+} );
