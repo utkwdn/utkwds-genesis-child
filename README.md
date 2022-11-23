@@ -79,3 +79,51 @@ Likewise, there are "Theme SEO" settings that Genesis adds, however we recommend
 ---
 
 For extra Genesis help, see [Genesis Tutorials](https://genesistutorials.com) and the official [Genesis Resources](https://developer.wpengine.com).
+
+---
+
+## Photo Sizing Recommendations
+
+### Cards
+Bio Card Group and Profile Card Group
+Headshot
+740px x 960px
+
+### Gallery
+Gallery Two Up on Orange (should always be these exact sizes)
+Large Image 
+1108px x 736px
+
+Small Image
+745px x 527px
+
+### Intro
+Hero with Quote
+Image
+1188px x 1188px
+
+### Sub Page Intro
+Image
+1024px x 683px
+
+### Tertiary Page Intro
+Image
+1024px x 667px
+
+### News
+News Triple on Modern Grey with Image
+Image 
+1005px x 1045px
+
+### News Featured Op Ed
+Image 
+1024px x 683px
+
+### Text
+Full Width – Text with Double Images
+Image
+572px x 572px
+
+### Media Text Callout with Fancy Links
+Image
+1108px x 736px
