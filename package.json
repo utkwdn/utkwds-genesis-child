@@ -5,7 +5,7 @@
   "main": "gulpconfig.js",
   "dependencies": {
     "autoprefixer": "^10.4.0",
-    "bootstrap": "^5.2.2",
+    "bootstrap": "^5.2.3",
     "browser-sync": "^2.27.7",
     "cssnano": "^5.0.12",
     "del": "^6.0.0",
