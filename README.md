@@ -38,8 +38,6 @@ The NPM commands are:
 - `npm run build` will build a testing theme.
 - `npm run dist` will minimize all images and css and javascript for production and place a production ready version of the theme in the `\dist\` directory.
 
-**Note**: The JS and CSS is edited in the framework project. The theme references [javascript](https://images.utk.edu/designsystem/v1/latest/assets/js/utk.js) and [css](https://images.utk.edu/designsystem/v1/latest/assets/css/style.css) files on the images server.
-
 ---
 
 ## Setting up your site the Genesis Theme.
