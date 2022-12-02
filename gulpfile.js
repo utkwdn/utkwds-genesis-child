@@ -58,11 +58,11 @@ gulp.task('buildsrc', function () {
 // ===============================================================
 
 // Set dist variables
-var inputcssdist = './src/style.scss';
-var inputeditordist      = './src/style.scss';
+var inputcssdist     = './src/style.scss';
+var inputeditordist  = './src/editor-style.scss';
 var inputscriptsdist = './src/js/';
-var outputcssdist = './dist/genesis-child/';
-var outputjsdist = './dist/genesis-child/js';
+var outputcssdist    = './dist/genesis-child/';
+var outputjsdist     = './dist/genesis-child/js';
 // create the distributed javascipt file
 
 gulp.task('distjs', function () {
@@ -94,16 +94,19 @@ gulp.task('editordistcss', function () {
     .pipe(gulp.dest(outputcssdist));
 });
 
-// copy the src directoy
+
+// copy the build directoy
 gulp.task('distsrc', function () {
   return gulp.src('src/**').pipe(gulp.dest('dist/genesis-child'));
 });
+
 
 gulp.task('watch', function() {
   gulp.watch('./src/scss/**/*.scss', gulp.series('sass'))
   .on('change', function(event) {
     console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
-  });  gulp.watch('./src/scss/**/*.scss', gulp.series('editorsass'))
+  });  
+  gulp.watch('./src/scss/**/*.scss', gulp.series('editorsass'))
   .on('change', function(event) {
     console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
   });
@@ -117,6 +120,6 @@ gulp.task('watch', function() {
   });
 });
 
-gulp.task('default', gulp.series('sass','editorsass','scripts','buildsrc','watch'));
-gulp.task('build',   gulp.series('sass','editorsass','scripts','buildsrc'));
-gulp.task('dist',    gulp.series('distcss','editordistcss','distjs','distsrc'));
+gulp.task('default', gulp.series('sass',  'editorsass','scripts','buildsrc','watch'));
+gulp.task('build',   gulp.series('sass',  'editorsass','scripts','buildsrc'));
+gulp.task('dist',    gulp.series('editordistcss',  'editordistcss','scripts','distsrc'));
