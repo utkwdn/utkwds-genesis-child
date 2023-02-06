@@ -12,7 +12,7 @@ function utkchancellor_disable_blocks( $allowed_blocks ) {
 	//unset( $blocks[ 'core/cover' ] );
 	unset( $blocks[ 'core/preformatted' ] );
 	unset( $blocks[ 'core/pullquote' ] );
-	unset( $blocks[ 'core/separator' ] );
+	// unset( $blocks[ 'core/separator' ] );
 	unset( $blocks[ 'core/tag-cloud' ] );
 	unset( $blocks[ 'core/search' ] );
 	//unset( $blocks[ 'core/columns' ] );

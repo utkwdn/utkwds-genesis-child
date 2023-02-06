@@ -9,3 +9,20 @@ hr.orange-separator {
   margin-left: 30%;
   margin-right: 30%;
 }
+
+hr.is-style-wide {
+  // color: $utorange; /* this is set in theme.json */
+  width: 100%;
+  opacity: 1;
+}
+
+hr.is-style-default {
+  // color: $utorange; /* this is set in theme.json */
+  width: 40%;
+  margin: $spacer auto;
+  opacity: 1;
+}
+
+hr.is-style-dots {
+  opacity: 0; /* To render this class option useless for now. Plugin needs to be tweaked */
+}

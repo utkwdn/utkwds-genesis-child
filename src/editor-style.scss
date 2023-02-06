@@ -18,90 +18,86 @@ Template: genesis
 @import 'scss/custom_variables';
 @import 'bootstrap/scss/variables';
 @import 'bootstrap/scss/maps';
-@import 'bootstrap/scss/mixins';
+// @import 'bootstrap/scss/mixins';
 @import 'bootstrap/scss/utilities';
 
 .editor-styles-wrapper {
-// Layout & components
-@import 'bootstrap/scss/root';
-@import 'bootstrap/scss/reboot';
-@import 'bootstrap/scss/type';
-@import 'bootstrap/scss/images';
-@import 'bootstrap/scss/containers';
-@import 'bootstrap/scss/grid';
-@import 'bootstrap/scss/tables';
-@import 'bootstrap/scss/forms';
-@import 'bootstrap/scss/card';
+  // Layout & components
+  @import 'bootstrap/scss/root';
+  @import 'bootstrap/scss/reboot';
+  @import 'bootstrap/scss/type';
+  @import 'bootstrap/scss/images';
+  @import 'bootstrap/scss/containers';
+  @import 'bootstrap/scss/grid';
+  @import 'bootstrap/scss/tables';
+  @import 'bootstrap/scss/forms';
+  @import 'bootstrap/scss/card';
 
-@import 'bootstrap/scss/accordion';
-@import 'bootstrap/scss/alert';
-//@import "bootstrap/scss/progress";
-//@import "bootstrap/scss/list-group";
-@import 'bootstrap/scss/close';
-@import 'bootstrap/scss/toasts';
-@import 'bootstrap/scss/modal';
-@import 'bootstrap/scss/tooltip';
-//@import "bootstrap/scss/popover";
-//@import "bootstrap/scss/carousel";
-//@import "bootstrap/scss/spinners";
-@import 'bootstrap/scss/pagination';
-@import 'bootstrap/scss/offcanvas';
-@import 'bootstrap/scss/placeholders';
+  @import 'bootstrap/scss/accordion';
+  @import 'bootstrap/scss/alert';
+  //@import "bootstrap/scss/progress";
+  //@import "bootstrap/scss/list-group";
+  @import 'bootstrap/scss/close';
+  @import 'bootstrap/scss/toasts';
+  @import 'bootstrap/scss/modal';
+  @import 'bootstrap/scss/tooltip';
+  //@import "bootstrap/scss/popover";
+  //@import "bootstrap/scss/carousel";
+  //@import "bootstrap/scss/spinners";
+  @import 'bootstrap/scss/pagination';
+  @import 'bootstrap/scss/offcanvas';
+  @import 'bootstrap/scss/placeholders';
 
-// Helpers
-@import 'bootstrap/scss/helpers';
+  // Helpers
+  @import 'bootstrap/scss/helpers';
 
-// Utilities
-@import 'bootstrap/scss/utilities/api';
-// scss-docs-end import-stack
+  // Utilities
+  @import 'bootstrap/scss/utilities/api';
+  // scss-docs-end import-stack
 
-// UT Regions
+  // UT Regions
 
-// @import "regions/contentarea";
-@import 'scss/regions/contentarea';
+  // @import "regions/contentarea";
+  @import 'scss/regions/contentarea';
 
-// UT Components
+  // UT Components
 
-@import 'scss/components/accordion_folds';
-@import 'scss/components/cards';
-@import 'scss/components/calendars';
-@import 'scss/components/columns';
-@import 'scss/components/forms';
-// @import "scss/components/gallery";
-@import 'scss/components/latest_posts';
-@import 'scss/components/media-text';
-@import 'scss/components/profiles';
-@import 'scss/components/promos';
-// @import "scss/components/jumbotron";
-// @import "scss/components/strip";
-@import 'scss/components/widgets';
+  @import 'scss/components/accordion_folds';
+  @import 'scss/components/cards';
+  @import 'scss/components/calendars';
+  @import 'scss/components/columns';
+  @import 'scss/components/forms';
+  // @import "scss/components/gallery";
+  @import 'scss/components/latest_posts';
+  @import 'scss/components/media-text';
+  @import 'scss/components/profiles';
+  @import 'scss/components/promos';
+  // @import "scss/components/jumbotron";
+  // @import "scss/components/strip";
+  @import 'scss/components/widgets';
 
-// UT Styles
-// @import 'scss/styles/breadcrumbs';
-@import 'scss/styles/buttons';
-@import 'scss/styles/blockquote';
-@import 'scss/styles/highlight_boxes';
-@import 'scss/styles/frame';
-@import 'scss/styles/gutenberg';
-@import 'scss/styles/genesis';
-@import 'scss/styles/images';
-@import 'scss/styles/orange_hr';
-@import 'scss/styles/orange_mark';
-@import 'scss/styles/search_forms';
-@import 'scss/styles/typography';
-@import 'scss/styles/background';
-@import 'scss/styles/textcolors';
-@import 'scss/styles/pagination';
-@import 'scss/styles/patterns';
-@import 'scss/styles/logos';
-@import 'scss/styles/wp';
+  // UT Styles
+  // @import 'scss/styles/breadcrumbs';
+  @import 'scss/styles/buttons';
+  @import 'scss/styles/blockquote';
+  @import 'scss/styles/highlight_boxes';
+  @import 'scss/styles/frame';
+  @import 'scss/styles/gutenberg';
+  @import 'scss/styles/genesis';
+  @import 'scss/styles/images';
+  @import 'scss/styles/orange_hr';
+  @import 'scss/styles/orange_mark';
+  @import 'scss/styles/search_forms';
+  @import 'scss/styles/typography';
+  @import 'scss/styles/background';
+  @import 'scss/styles/textcolors';
+  @import 'scss/styles/pagination';
+  @import 'scss/styles/patterns';
+  @import 'scss/styles/logos';
+  @import 'scss/styles/wp';
 
-@import 'scss/extend';
-
-
+  @import 'scss/extend';
 }
-
-
 
 body.is-fullscreen-mode {
   .alignfull {

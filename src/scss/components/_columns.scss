@@ -11,3 +11,7 @@
 .wp-block-columns {
   // padding: 0 3vw;
 }
+
+.wp-block-column {
+  word-break: normal !important; /* overrides wp default of break-word which was causing weird orphaned letters */
+}
