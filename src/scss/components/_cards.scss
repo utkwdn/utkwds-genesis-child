@@ -201,6 +201,9 @@
   > .is-layout-flow > *:first-child {
     // margin-block-start: 4rem; */ not using this. Instead adding padding to individual cards */
   }
+  .fancyLink {
+    margin-right: calc($spacer * 0.5);
+  }
 }
 .profileCardContainer > *,
 .subjectCardContainer > * {
