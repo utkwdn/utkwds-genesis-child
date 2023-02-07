@@ -295,7 +295,12 @@
           }
         }
       },
-      "core/cover": {}
+      "core/cover": {},
+      "core/separator": {
+        "color": {
+          "text": "var(--wp--preset--color--orange)"
+        }
+      }
     },
     "typography": {
       "fontFamily": "var(--wp--preset--font-family--primary)",

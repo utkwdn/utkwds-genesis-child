@@ -61,6 +61,8 @@ Template: genesis
 @import 'bootstrap/scss/utilities/api';
 // scss-docs-end import-stack
 
+// Fixes for Browser Versions
+@import 'scss/styles/fixes';
 // UT Regions
 
 // @import "regions/contentarea";
