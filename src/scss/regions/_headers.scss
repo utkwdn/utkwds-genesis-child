@@ -14,7 +14,7 @@
     background-size: $spacer * 2 $spacer * 2 !important;
     color: $utsmokey;
     // padding: 0 0 $spacer calc($spacer * 4.1);
-    padding: $spacer calc($spacer * 4.1);
+    padding: $spacer 0 $spacer calc($spacer * 4.1);
     background-position: center center;
     background-size: 3rem;
     text-decoration: none;
