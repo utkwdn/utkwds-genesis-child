@@ -28,7 +28,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"white","className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-background-color has-background wp-element-button" href="#">Explore Subjec Area</a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-background-color has-background wp-element-button" href="#">Explore Subject Area</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -44,7 +44,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"white","className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-background-color has-background wp-element-button" href="#">Explore Subjec Area</a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-background-color has-background wp-element-button" href="#">Explore Subject Area</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -60,7 +60,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"white","className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-background-color has-background wp-element-button" href="#">Explore Subjec Area</a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-background-color has-background wp-element-button" href="#">Explore Subject Area</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -76,7 +76,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"white","className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-background-color has-background wp-element-button" href="#">Explore Subjec Area</a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-white-background-color has-background wp-element-button" href="#">Explore Subject Area</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

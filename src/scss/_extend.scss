@@ -1,4 +1,3 @@
-
 /* Site Inner
 --------------------------------------------- */
 
@@ -49,14 +48,9 @@
   }
 }
 
-
-
-
-
 .fontLight {
   font-weight: $font-weight-light;
 }
-
 
 .fullWidthBar-end {
   &:after {
@@ -167,7 +161,7 @@
   // font-style: italic;
   font-weight: $font-weight-bold;
   letter-spacing: 0.01rem;
-  text-align: rileght;
+  // text-align: right;
   color: $utsmokey;
   // &:first-letter {
   //   color: $utlinkriver;
