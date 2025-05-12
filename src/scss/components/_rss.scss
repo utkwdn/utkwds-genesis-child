@@ -1,0 +1,28 @@
+.wp-block-rss {
+
+}
+
+.wp-block-rss__item {
+	margin: 0 0 30px;
+}
+
+.wp-block-rss__item-title {
+	font-weight: 700;
+
+	a {
+		color: $utlinkriver;
+
+		&:active,
+		&:hover {
+			color: $utlinkhover;
+		}
+	}
+}
+
+.wp-block-rss__item-author, .wp-block-rss__item-publish-date {
+	display: initial !important;
+}
+
+.wp-block-rss__item-excerpt {
+	margin: 5px 0 0;
+}

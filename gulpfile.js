@@ -122,4 +122,4 @@ gulp.task('watch', function() {
 
 gulp.task('default', gulp.series('sass',  'editorsass','scripts','buildsrc','watch'));
 gulp.task('build',   gulp.series('sass',  'editorsass','scripts','buildsrc'));
-gulp.task('dist',    gulp.series('editordistcss',  'editordistcss','scripts','distsrc'));
+gulp.task('dist',    gulp.series('distcss', 'editordistcss','scripts','distsrc'));
